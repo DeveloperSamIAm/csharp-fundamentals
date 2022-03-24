@@ -20,6 +20,23 @@ inside that member.
 MyLocalFunction();
 // Lesson1Example();
 Exercise1Example();
+Lesson2Example();
+
+
+// Lesson 2 Strings
+void Lesson2Example()
+{
+    Lesson2 myLesson2 = new Lesson2();
+    myLesson2.MyTrimExample();
+    int able = myLesson2.MyStringLength();
+    Console.WriteLine(able);
+    myLesson2.MyEqualsExample("Hello World");
+    myLesson2.MyExampleChar();
+    Console.WriteLine(myLesson2.MyEscapeExample());
+    myLesson2.MyJoinedStrings("CSharp", "Rules");
+    Console.WriteLine(myLesson2.MyInterpolationExample("sushi", 3));
+    myLesson2.MyOtherInterpolation();
+}
 
 void HouseExample()
 {
@@ -36,7 +53,6 @@ void Exercise1Example()
     myExercise.Exercise1Method3(42.2D, 45.0F, -8000L);
     myExercise.Exercise1Method4();
 }
-
 
 
 // Lesson 1 Value Types
