@@ -17,13 +17,27 @@ inside that member.
 
 // Lesson Examples
 // HouseExample();
-Lesson1Example();
+MyLocalFunction();
+// Lesson1Example();
+Exercise1Example();
 
 void HouseExample()
 {
     House myHouse = new House();
     myHouse.DoorOpenClose();
 }
+
+// Lesson 1 Lab Exercise
+void Exercise1Example()
+{
+    Exercise1 myExercise = new Exercise1();
+    myExercise.Exercise1Method1();
+    myExercise.Exercise1Method2(36, 3600, 3600000);
+    myExercise.Exercise1Method3(42.2D, 45.0F, -8000L);
+    myExercise.Exercise1Method4();
+}
+
+
 
 // Lesson 1 Value Types
 void Lesson1Example()
@@ -45,5 +59,3 @@ void MyLocalFunction()
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning stuff everyday.");
 }
-
-MyLocalFunction();
