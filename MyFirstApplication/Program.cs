@@ -17,10 +17,23 @@ inside that member.
 
 // Lesson Examples
 // HouseExample();
-MyLocalFunction();
+// MyLocalFunction();
 // Lesson1Example();
-Exercise1Example();
-Lesson2Example();
+// Exercise1Example();
+// Lesson2Example();
+Exercise2Example();
+
+
+// Lesson 2 Lab Exercise
+void Exercise2Example()
+{
+    Exercise2 myExercise2 = new Exercise2();
+    myExercise2.Exercise2Method1(" EXERCISE two Lab");
+    myExercise2.Exercise2Method2();
+    myExercise2.Exercise2Method3();
+    Console.WriteLine(myExercise2.Exercise2Method4());
+}
+
 
 
 // Lesson 2 Strings
@@ -38,11 +51,6 @@ void Lesson2Example()
     myLesson2.MyOtherInterpolation();
 }
 
-void HouseExample()
-{
-    House myHouse = new House();
-    myHouse.DoorOpenClose();
-}
 
 // Lesson 1 Lab Exercise
 void Exercise1Example()
@@ -74,4 +82,10 @@ void MyLocalFunction()
     Console.WriteLine("I am new to CSharp");
     Console.WriteLine("This CSharp course is cool");
     Console.WriteLine("I am learning stuff everyday.");
+}
+
+void HouseExample()
+{
+    House myHouse = new House();
+    myHouse.DoorOpenClose();
 }
