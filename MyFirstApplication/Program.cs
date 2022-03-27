@@ -23,7 +23,28 @@ inside that member.
 // Lesson2Example();
 // Exercise2Example();
 // Lesson3Example();
-Exercise3Example();
+// Exercise3Example();
+// Lesson4Example();
+
+
+
+// Lesson 4 Control FLow
+void Lesson4Example()
+{
+    Lesson4 myLesson4 = new Lesson4();
+    myLesson4.BasicIfStatement(11);
+    myLesson4.BasicIfElseStatement(12);
+    myLesson4.BasicIfElseChainStatement(5);
+    myLesson4.BasicAndOrCondition(20, 20);
+    Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    myLesson4.BasicSwitchStatement(3);
+    myLesson4.BasicWhileStatement();
+    myLesson4.BasicDoStatement();
+    myLesson4.BasicForStatement();
+    myLesson4.BasicForeachStatement();
+    myLesson4.BasicJumpStatement();
+}
+
 
 // Lesson 3 Lab Exercise
 void Exercise3Example()
@@ -41,19 +62,19 @@ void Exercise3Example()
 void Lesson3Example()
 {
     Lesson3 myLesson3 = new Lesson3();
-    // myLesson3.BasicCheckedOperator(14);
-    // myLesson3.BasicCheckedExample2();
-    // int alpha = 2147483647;
-    // int total = alpha + 10;
-    // Console.WriteLine(total);
+    myLesson3.BasicCheckedOperator(14);
+    myLesson3.BasicCheckedExample2();
+    int alpha = 2147483647;
+    int total = alpha + 10;
+    Console.WriteLine(total);
     // -2147483639
-    // myLesson3.BasicUncheckedExample();
-    // myLesson3.BasicMath();
-    // myLesson3.BasicModulus(783);
-    // myLesson3.BasicBooleanLogical(true, false);
-    // myLesson3.BasicCompoundExample(12, 35, 9);
-    // myLesson3.BasicRelationalExample("Tom", "Tim");
-    // myLesson3.MyIncDecrExample();
+    myLesson3.BasicUncheckedExample();
+    myLesson3.BasicMath();
+    myLesson3.BasicModulus(783);
+    myLesson3.BasicBooleanLogical(true, false);
+    myLesson3.BasicCompoundExample(12, 35, 9);
+    myLesson3.BasicRelationalExample("Tom", "Tim");
+    myLesson3.MyIncDecrExample();
 }
 
 
