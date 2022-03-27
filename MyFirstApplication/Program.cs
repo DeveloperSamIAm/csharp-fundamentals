@@ -22,7 +22,19 @@ inside that member.
 // Exercise1Example();
 // Lesson2Example();
 // Exercise2Example();
-Lesson3Example();
+// Lesson3Example();
+Exercise3Example();
+
+// Lesson 3 Lab Exercise
+void Exercise3Example()
+{
+    Exercise3 myExercise3 = new Exercise3();
+    Console.WriteLine(myExercise3.Exercise3Method1(2));
+    myExercise3.Exercise3Method2();
+    myExercise3.Exercise3Method3(10, 100);
+    myExercise3.Exercise3Method4(false, true);
+}
+
 
 
 // Lesson 3 Operators and Overflow Checking
@@ -41,7 +53,7 @@ void Lesson3Example()
     // myLesson3.BasicBooleanLogical(true, false);
     // myLesson3.BasicCompoundExample(12, 35, 9);
     // myLesson3.BasicRelationalExample("Tom", "Tim");
-    myLesson3.MyIncDecrExample();
+    // myLesson3.MyIncDecrExample();
 }
 
 
