@@ -26,8 +26,20 @@ inside that member.
 // Exercise3Example();
 // Lesson4Example();
 // Exercise4Example();
-Lesson5Example();
+// Lesson5Example();
+Exercise5Example();
 
+
+
+
+// Lesson 5 Lab Exercise
+void Exercise5Example()
+{
+    Exercise5 myExercise5 = new Exercise5();
+    Console.WriteLine(myExercise5.Exercise5Method1(23, 23));
+    Console.WriteLine(myExercise5.Exercise5Method2('v'));
+    myExercise5.Exercise5Method3(32);
+}
 
 
 
