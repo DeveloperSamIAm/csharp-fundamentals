@@ -27,9 +27,53 @@ inside that member.
 // Lesson4Example();
 // Exercise4Example();
 // Lesson5Example();
-Exercise5Example();
+// Exercise5Example();
+// Lesson6Examples();
 
 
+
+
+// Lesson 6 
+void Lesson6Examples()
+{
+    // default constructor
+    Lesson6 myLesson6 = new Lesson6();
+    Lesson6 myLessonHats = new Lesson6("Cowboy", 7);
+    Lesson6.TryOn theHat = myLessonHats.TryOnHat;
+    theHat($"I tried on a {myLessonHats.HatType} hat that was size {myLessonHats.HatSize}");
+
+    Console.WriteLine();
+
+    // Constructor with 1 parameter
+    Lesson6 myOther6 = new Lesson6(22);
+
+    // Constructor with 2 parameters
+    Lesson6 myHats = new Lesson6("Cowboy", 7);
+    Console.WriteLine(myHats.HatSize); // getting value
+    myHats.HatSize = 6; // setting value
+
+    // Method Parameter Modifiers
+    int able = 33, beta = 22, charlie;
+    myLesson6.InExample(able);
+    myLesson6.RefExample(ref beta);
+    Console.WriteLine(beta);
+    myLesson6.OutExample(out charlie);
+    Console.WriteLine(charlie);
+
+    Console.WriteLine();
+
+    // Multi-cast Delegate
+    Lesson6.TryOn theNewHat, hangTheHat, multiHat;
+
+    theNewHat = myLesson6.TryOnHat;
+    hangTheHat = myLesson6.HangUpHat;
+    multiHat = theNewHat + hangTheHat;
+
+    theNewHat($"Trying a {myLessonHats.HatType} hat");
+    hangTheHat($"Hanging up my {myLessonHats.HatType} hat");
+    multiHat($"My {myLessonHats.HatType} hat");
+
+}
 
 
 // Lesson 5 Lab Exercise
@@ -40,7 +84,6 @@ void Exercise5Example()
     Console.WriteLine(myExercise5.Exercise5Method2('v'));
     myExercise5.Exercise5Method3(32);
 }
-
 
 
 // Lesson 5 Expressions & Pattern Matching
