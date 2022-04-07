@@ -17,9 +17,15 @@ public class Exercise4
         {
             Console.WriteLine($"{arg1} and {arg2} are the same");
         }
+        else
+        {
+            Console.WriteLine($"{arg1} and {arg2} are not the same.");
+        }
+
     } /*
       When arg1 = cupcake and arg2 = poptart only the "Before if statement" line
-      printed.
+      printed and the "cupcake and poptart are not the same" lines printed.
+
       When arg1 = cupcake and arg2 = cupcake both the "Before if statement" line
       and the "cupcake and cupcake are the same" lines printed.
       */
@@ -40,15 +46,15 @@ public class Exercise4
     {
         switch(arg)
         {
-            case 'E':
+            case 'E' or 'e':
                 return ("Excellent");
-            case 'V':
+            case 'V' or 'v':
                 return ("Very Good");
-            case 'G':
+            case 'G' or 'g':
                 return ("Good");
-            case 'A':
+            case 'A' or 'a':
                 return ("Average");
-            case 'F':
+            case 'F' or 'f':
                 return ("Fail");
             default:
                 return ("Not a valid grade");
