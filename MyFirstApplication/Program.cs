@@ -5,19 +5,10 @@
 
 // The below statement calls a local function
 // single line comment
-
-
-/*
- Multi-line comment
-The below statement is a local function. Local functions are
-inside members and are private by default. This means
-they are specific to that member and can only be called
-inside that member.
- */
-
-// Lesson Examples
 // HouseExample();
+
 // MyLocalFunction();
+// Lesson Examples
 // Lesson1Example();
 // Exercise1Example();
 // Lesson2Example();
@@ -29,8 +20,21 @@ inside that member.
 // Lesson5Example();
 // Exercise5Example();
 // Lesson6Examples();
+Exercise6Example();
 
 
+// Lesson 6 Lab Exercise
+void Exercise6Example()
+{
+    Exercise6 myShoes = new Exercise6(8, "Converse");
+    Exercise6.TryOn theShoe = myShoes.TryOnShoe;
+    theShoe($"I tried on a {myShoes.ShowSize} size shoe that was made by {myShoes.ShoeType}");
+}
+
+
+// Bottles of Beer Song
+BottlesOfBeer bottles = new BottlesOfBeer();
+// bottles.LetsSing();
 
 
 // Lesson 6 
@@ -125,7 +129,7 @@ void Lesson5Example()
 void Exercise4Example()
 {
     Exercise4 myExercise4 = new Exercise4();
-    myExercise4.Exercise4Method1("cupcake", "cupcake");
+    myExercise4.Exercise4Method1("cupcake", "poptarts");
     Console.WriteLine(myExercise4.Exercise4Method2('Z'));
     myExercise4.Exercise4Method3();
 }
@@ -242,6 +246,13 @@ void MyLocalFunction()
     Console.WriteLine("I am learning stuff everyday.");
 }
 
+/*
+ Multi-line comment
+The below statement is a local function. Local functions are
+inside members and are private by default. This means
+they are specific to that member and can only be called
+inside that member.
+ */
 void HouseExample()
 {
     House myHouse = new House();
