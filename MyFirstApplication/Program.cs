@@ -21,8 +21,23 @@
 // Exercise5Example();
 // Lesson6Examples();
 // Exercise6Example();
-Lesson7Example();
+// Lesson7Example();
+Exercise7Example();
 
+
+
+// Lesson 7 Lab Exercise
+void Exercise7Example()
+{
+    Employee myEmployee = new Employee(3, "Sami");
+    Console.WriteLine(myEmployee);
+    Console.WriteLine(myEmployee.Id);
+    Console.WriteLine(myEmployee.Name);
+
+    Boat myBoat = new Boat("forward");
+    Console.WriteLine(myBoat);
+    Console.WriteLine(myBoat.direction);
+}
 
 // Lesson 7
 void Lesson7Example()
