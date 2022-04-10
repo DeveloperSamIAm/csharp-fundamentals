@@ -23,7 +23,20 @@
 // Exercise6Example();
 // Lesson7Example();
 // Exercise7Example();
-Lesson8Example();
+// Lesson8Example();
+// Exercise8Example();
+
+
+
+
+// Lesson 8 Lab Exercise
+void Exercise8Example()
+{
+    Exercise8 myExercise8 = new Exercise8();
+    myExercise8.FeetToInches(3);
+
+    Exercise8.CalcLengthWidth(2, 3);
+}
 
 
 // Lesson 8 
