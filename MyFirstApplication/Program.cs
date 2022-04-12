@@ -25,8 +25,16 @@
 // Exercise7Example();
 // Lesson8Example();
 // Exercise8Example();
+BadgerBadger();
 
 
+
+/* This is a program that will run a song */
+void BadgerBadger()
+{
+    BadgerMushroomSong mySong = new BadgerMushroomSong();
+    mySong.BadgerSong();
+}
 
 
 // Lesson 8 Lab Exercise
