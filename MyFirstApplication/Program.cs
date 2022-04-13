@@ -25,8 +25,19 @@
 // Exercise7Example();
 // Lesson8Example();
 // Exercise8Example();
-BadgerBadger();
+// BadgerBadger();
+Lesson9Example();
 
+
+void Lesson9Example()
+{
+    Lesson9 myLesson9 = new Lesson9();
+    Lesson9.Nested nested = new Lesson9.Nested(myLesson9);
+
+    // Access Modifiers
+    myLesson9.SampleInternal();
+    myLesson9.SampleProtectedInternal();
+}
 
 
 /* This is a program that will run a song */
@@ -221,17 +232,17 @@ void Exercise4Example()
 void Lesson4Example()
 {
     Lesson4 myLesson4 = new Lesson4();
-    myLesson4.BasicIfStatement(11);
-    myLesson4.BasicIfElseStatement(12);
-    myLesson4.BasicIfElseChainStatement(5);
-    myLesson4.BasicAndOrCondition(20, 20);
-    Console.WriteLine(myLesson4.BasicTernaryExample(35));
-    myLesson4.BasicSwitchStatement(3);
+    // myLesson4.BasicIfStatement(11);
+    // myLesson4.BasicIfElseStatement(12);
+    // myLesson4.BasicIfElseChainStatement(5);
+    // myLesson4.BasicAndOrCondition(20, 20);
+    // Console.WriteLine(myLesson4.BasicTernaryExample(35));
+    // myLesson4.BasicSwitchStatement(3);
     myLesson4.BasicWhileStatement();
-    myLesson4.BasicDoStatement();
-    myLesson4.BasicForStatement();
-    myLesson4.BasicForeachStatement();
-    myLesson4.BasicJumpStatement();
+    // myLesson4.BasicDoStatement();
+    // myLesson4.BasicForStatement();
+    // myLesson4.BasicForeachStatement();
+    // myLesson4.BasicJumpStatement();
 }
 
 
