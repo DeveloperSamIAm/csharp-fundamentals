@@ -28,8 +28,25 @@
 // BadgerBadger();
 // Lesson9Example();
 // Lesson10Example();
-HouseUpdated();
+// HouseUpdated();
+Exercise10Example();
 
+
+
+
+// Lesson 10 Lab Exercise
+void Exercise10Example()
+{
+    Horse myHorse = new Horse();
+    Console.WriteLine(myHorse.CoatColor);
+    Console.WriteLine(myHorse.ShoeSize);
+    Console.WriteLine(myHorse.SaddleMaterial);
+
+    Boat2 myBoat2 = new Boat2();
+    Console.WriteLine(myBoat2.HullColor);
+    Console.WriteLine(myBoat2.HelmSize);
+    Console.WriteLine(myBoat2.SailMaterial);
+}
 
 
 void HouseUpdated()
