@@ -1,5 +1,8 @@
 ﻿namespace MyFirstApplication;
 
+/*
+ This class includes Raft inheriting from Boat2 for Lab Exercise 11
+ */
 internal class Raft : Boat2
 {
     /*
