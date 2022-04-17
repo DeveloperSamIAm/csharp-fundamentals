@@ -29,8 +29,22 @@
 // Lesson9Example();
 // Lesson10Example();
 // HouseUpdated();
-Exercise10Example();
+// Exercise10Example();
+Lesson11Example();
 
+
+// Lesson 11
+void Lesson11Example()
+{
+    Square square = new Square();
+    double total = square.CalculateInteriorAngle();
+    Console.WriteLine(total);
+
+    Triangle triangle = new Triangle();
+    double total2 = triangle.CalculateInteriorAngle();
+    Console.WriteLine(total2);
+
+}
 
 
 
@@ -68,7 +82,7 @@ void HouseUpdated()
 }
 
 
-
+// Lesson 10
 void Lesson10Example()
 {
     Lesson10 myLesson10 = new Lesson10();
@@ -95,6 +109,7 @@ void Lesson10Example()
 }
 
 
+// Lesson 9
 void Lesson9Example()
 {
     Lesson9 myLesson9 = new Lesson9();
