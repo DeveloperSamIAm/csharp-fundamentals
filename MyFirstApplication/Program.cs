@@ -30,7 +30,7 @@
 // Lesson10Example();
 // HouseUpdated();
 // Exercise10Example();
-Lesson11Example();
+// Lesson11Example();
 
 
 // Lesson 11
@@ -55,6 +55,7 @@ void Exercise10Example()
     Console.WriteLine(myHorse.CoatColor);
     Console.WriteLine(myHorse.ShoeSize);
     Console.WriteLine(myHorse.SaddleMaterial);
+    myHorse.Neigh();
 
     Boat2 myBoat2 = new Boat2();
     Console.WriteLine(myBoat2.HullColor);

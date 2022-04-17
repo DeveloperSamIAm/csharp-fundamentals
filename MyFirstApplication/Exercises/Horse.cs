@@ -32,4 +32,9 @@ internal class Horse
     public Horse()
         :this("White", "Leather") { }
 
+    public void Neigh()
+    {
+        Console.WriteLine("The horse neighs.");
+    }
+
 } // end class
