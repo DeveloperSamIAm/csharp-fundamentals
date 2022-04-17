@@ -31,6 +31,28 @@
 // HouseUpdated();
 // Exercise10Example();
 // Lesson11Example();
+Exercise11Example();
+
+
+// Lesson 11 Lab Exercise
+void Exercise11Example()
+{
+    Zebra myZebra = new Zebra();
+    Console.WriteLine(myZebra.CoatColor);
+    Console.WriteLine(myZebra.ShoeSize);
+    Console.WriteLine(myZebra.SaddleMaterial);
+    Console.WriteLine(myZebra.Stripes);
+    myZebra.Bray();
+
+    Raft myRaft = new Raft();
+    Console.WriteLine(myRaft.hullColor);
+    Console.WriteLine(myRaft.helmSize);
+    Console.WriteLine(myRaft.sailMaterial);
+    Console.WriteLine(myRaft.seatNumber);
+    myRaft.InflateDeflate();
+
+}
+
 
 
 // Lesson 11

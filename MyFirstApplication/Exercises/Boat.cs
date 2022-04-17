@@ -43,5 +43,9 @@ internal class Boat2
     public Boat2()
         : this("Blue", 20) { }
 
+    public void PropellerForwardBackward()
+    {
+        Console.WriteLine("The propeller moves forward.");
+    }
 
 } // end class
