@@ -1,6 +1,6 @@
 ﻿namespace MyFirstApplication;
 
-/* This class contains part of the Exercise 10 Lab - Horse */
+/* This class contains part of the Exercise 10 Lab - Horse; and Exercise 12 Polymorphism */
 internal class Horse
 {
     /*
@@ -32,9 +32,23 @@ internal class Horse
     public Horse()
         :this("White", "Leather") { }
 
-    public void Neigh()
+    public virtual void Neigh()
     {
         Console.WriteLine("The horse neighs.");
+    }
+
+    /*
+    Lesson 12 Lab Exercise
+    1. In your Horse class, add the virtual keyword to your method created in 
+    Lesson 10. Create a second version of the same method and add a 
+    parameter. Include a Console WriteLine method in the new method that 
+    uses the parameter. This parameter needs to be based on one of your 
+    properties.
+     */
+
+    public void Neigh(string horseSize)
+    {
+        Console.WriteLine($"The {horseSize} horse neighs before galloping magestically off into the sunset.");
     }
 
 } // end class

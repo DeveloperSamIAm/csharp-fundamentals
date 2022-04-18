@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
- This class includes Zebra inheriting from Horse for Lab Exercise 11
+ This class includes Zebra inheriting from Horse for Lab Exercise 11 and Exercise 12 Polymorphism
  */
 internal class Zebra : Horse
 {
@@ -40,5 +40,15 @@ internal class Zebra : Horse
         Console.WriteLine("The zebra makes a bray sound.");
     }
 
+    /*
+    Lesson 12 Lab Exercise
+    2. In your child class of Horse, using the override keyword create a method 
+    that has the same name as the virtual method from Horse. Add a Console 
+    WriteLine that provides a different message from the Horse.
+     */
+    public override void Neigh()
+    {
+        Console.WriteLine("A zebra does not make the neigh sound.");
+    }
 
 } // end class

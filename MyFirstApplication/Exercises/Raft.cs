@@ -1,7 +1,7 @@
 ﻿namespace MyFirstApplication;
 
 /*
- This class includes Raft inheriting from Boat2 for Lab Exercise 11
+ This class includes Raft inheriting from Boat2 for Lab Exercise 11 and Exercise 12 Polymorphism
  */
 internal class Raft : Boat2
 {
@@ -34,6 +34,18 @@ internal class Raft : Boat2
     public void InflateDeflate()
     {
         Console.WriteLine("The raft inflates or deflates.");
+    }
+
+    /*
+    Lesson 12 Lab Exercise
+    4. In your child class of Boat, using the override keyword create a method 
+    that has the same name as the virtual method from Boat. Add a Console 
+    WriteLine that provides a different message from the Boat
+     */
+
+    public override void PropellerForwardBackward()
+    {
+        Console.WriteLine("The raft\'s propeller moves backward.");
     }
 
 } // end class

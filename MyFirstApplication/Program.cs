@@ -33,7 +33,25 @@
 // Lesson11Example();
 // Exercise11Example();
 // Lesson12Example();
-CondoExample();
+// CondoExample();
+Exercise12Example();
+
+
+
+// Lesson 12 Lab Exercise
+void Exercise12Example()
+{
+    Horse myHorse = new Horse();
+    Zebra myZebra = new Zebra();
+    Boat2 myBoat = new Boat2();
+    Raft myRaft = new Raft();
+    myHorse.Neigh("large");
+    myZebra.Neigh();
+    myBoat.PropellerForwardBackward(25);
+    myRaft.PropellerForwardBackward();
+}
+
+
 
 void CondoExample()
 {
