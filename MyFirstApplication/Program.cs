@@ -31,7 +31,30 @@
 // HouseUpdated();
 // Exercise10Example();
 // Lesson11Example();
-Exercise11Example();
+// Exercise11Example();
+// Lesson12Example();
+CondoExample();
+
+void CondoExample()
+{
+    Condo myCondo = new Condo();
+    myCondo.Maintenance();
+    myCondo.DoorOpenClose();
+    Console.WriteLine(myCondo.RoofType);
+}
+
+
+// Lesson 12
+void Lesson12Example()
+{
+    Fruit myFruit = new Fruit();
+    myFruit.EatFruit();
+    myFruit.EatFruit(3);
+
+    Apple myApple = new Apple();
+    myApple.EatFruit();
+}
+
 
 
 // Lesson 11 Lab Exercise
@@ -52,7 +75,6 @@ void Exercise11Example()
     myRaft.InflateDeflate();
 
 }
-
 
 
 // Lesson 11
