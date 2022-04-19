@@ -35,7 +35,22 @@
 // Lesson12Example();
 // CondoExample();
 // Exercise12Example();
-Lesson13Example();
+// Lesson13Example();
+Exercise13Example();
+
+
+
+
+// Lesson 13 Lab Exercise
+void Exercise13Example()
+{
+    Pelican myPelican = new Pelican(15);
+    Console.WriteLine(myPelican.Speed);
+    myPelican.EatFish();
+    myPelican.FlyAway();
+}
+
+
 
 // Lesson 13
 void Lesson13Example()
