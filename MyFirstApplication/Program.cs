@@ -37,8 +37,19 @@
 // Exercise12Example();
 // Lesson13Example();
 // Exercise13Example();
-Lesson14Example();
+// Lesson14Example();
+Exercise14Example();
 
+
+
+
+// Lesson 14 Lab Exercise
+void Exercise14Example()
+{
+    Exercise14 myExercise14 = new Exercise14();
+    myExercise14.IceCreamFlavors();
+    myExercise14.RegularScores();
+}
 
 
 // Lesson 14
@@ -53,7 +64,6 @@ void Lesson14Example()
 }
 
 
-
 // Lesson 13 Lab Exercise
 void Exercise13Example()
 {
@@ -62,7 +72,6 @@ void Exercise13Example()
     myPelican.EatFish();
     myPelican.FlyAway();
 }
-
 
 
 // Lesson 13
