@@ -42,6 +42,16 @@
 // Lesson15Example();
 // Exercise15Example();
 // Lesson16Example();
+Exercise16Example();
+
+// Lesson 16 Lab Exercise
+void Exercise16Example()
+{
+    Exercise16 myExercise16 = new Exercise16();
+    myExercise16.HorseList();
+    myExercise16.MovieDictionary();
+}
+
 
 
 // Lesson 16
