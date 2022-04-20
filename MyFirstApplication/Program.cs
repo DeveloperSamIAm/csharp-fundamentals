@@ -43,11 +43,18 @@
 // Exercise15Example();
 // Lesson16Example();
 // Exercise16Example();
-Lesson17Example();
+// Lesson17Example();
+Exercise17Example();
 
 
-
-
+// Lesson 17 Lab Exercise
+void Exercise17Example()
+{
+    Exercise17 myExercise17 = new Exercise17();
+    // myExercise17.Exercise17Method1(8, 0);
+    Horse horseException = new Horse();
+    myExercise17.Exercise17Method2(horseException);
+}
 
 
 // Lesson 17
