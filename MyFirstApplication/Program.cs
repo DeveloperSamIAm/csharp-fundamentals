@@ -38,9 +38,23 @@
 // Lesson13Example();
 // Exercise13Example();
 // Lesson14Example();
-Exercise14Example();
+// Exercise14Example();
+Lesson15Example();
 
 
+
+// Lesson 15
+void Lesson15Example()
+{
+    Lesson15 myLesson15 = new Lesson15();
+    myLesson15.EnumExample();
+    string flavor = myLesson15.FavoriteIceCream(IceCreamFlavors.Chocolate);
+    Console.WriteLine(flavor);
+    myLesson15.TupleExample();
+    (int val1, int val2, int val3) = myLesson15.TupleReturnExample(11, 35);
+    Console.WriteLine($"Answers are {val1} {val2} {val3}");
+
+}
 
 
 // Lesson 14 Lab Exercise
