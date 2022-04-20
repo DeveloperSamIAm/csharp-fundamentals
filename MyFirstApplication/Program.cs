@@ -42,7 +42,24 @@
 // Lesson15Example();
 // Exercise15Example();
 // Lesson16Example();
-Exercise16Example();
+// Exercise16Example();
+Lesson17Example();
+
+
+
+
+
+
+// Lesson 17
+void Lesson17Example()
+{
+    Lesson17 myLesson17 = new Lesson17();
+    House testHouse = null;
+    // myLesson17.MyThrowExample(testHouse);
+    // myLesson17.MyExceptionExample(testHouse);
+    myLesson17.MyArrayException();
+}
+
 
 // Lesson 16 Lab Exercise
 void Exercise16Example()
@@ -51,7 +68,6 @@ void Exercise16Example()
     myExercise16.HorseList();
     myExercise16.MovieDictionary();
 }
-
 
 
 // Lesson 16
