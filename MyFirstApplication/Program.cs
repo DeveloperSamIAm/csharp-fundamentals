@@ -39,8 +39,19 @@
 // Exercise13Example();
 // Lesson14Example();
 // Exercise14Example();
-Lesson15Example();
+// Lesson15Example();
+Exercise15Example();
 
+
+// Lesson 15 Lab Exercise
+void Exercise15Example()
+{
+    Exercise15 myExercise15 = new Exercise15();
+    string favorite = myExercise15.BestMovies(FavoriteMovies.The_Grand_Budapest_Hotel);
+    Console.WriteLine(favorite);
+    (int value, string movie) = myExercise15.GreatestMovies(FavoriteMovies.The_Grand_Budapest_Hotel);
+    Console.WriteLine($"{movie} is number {value} on my enum list.");
+}
 
 
 // Lesson 15
