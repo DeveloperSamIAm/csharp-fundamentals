@@ -40,7 +40,17 @@
 // Lesson14Example();
 // Exercise14Example();
 // Lesson15Example();
-Exercise15Example();
+// Exercise15Example();
+// Lesson16Example();
+
+
+// Lesson 16
+void Lesson16Example()
+{
+    Lesson16 myLesson16 = new Lesson16();
+    myLesson16.MyListExample();
+    myLesson16.MyDictionaryExample();
+}
 
 
 // Lesson 15 Lab Exercise
