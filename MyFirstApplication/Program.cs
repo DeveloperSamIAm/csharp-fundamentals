@@ -287,7 +287,7 @@ void Lesson10Example()
 
     // Second constructor 
     Lesson10 myOther10 = new Lesson10("Ben", "Franklin", 64119);
-    Console.WriteLine(myOther10.Zipcode);
+    Console.WriteLine(myOther10.ZipCode);
 }
 
 
